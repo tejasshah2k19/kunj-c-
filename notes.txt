@@ -1,0 +1,43 @@
+
+Constructor : 
+constructor is a special function which has same name as class name
+and it must not have any return type
+
+constructor is used to initialize instance variable. 
+
+you don't need to invoke manually , constructor will call 
+automatically when we create object. 
+
+
+there are three types of constructor we have in cpp 
+
+1) default / no arg constructor 
+2) parameterized / argument constructor 
+3) copy constructor 
+
+
+default / no arg constructor 
+
+Employee(){
+    basicSalary = 0
+    hra = 0; 
+    bonus = 0; 
+}
+
+argument/parameterized 
+
+Employee(int basic,int h,int bn,int ts){
+    basicSalary  = basic; 
+    hra = h; 
+    bonus = bn; 
+}
+
+
+Employee(int basic){
+    basicSalary  = basic; 
+    calculateSalary();
+}
+
+Employee e; 
+Employee x(5000,1000,2000,256000)
+Employee j(10000);
