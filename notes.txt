@@ -41,3 +41,36 @@ Employee(int basic){
 Employee e; 
 Employee x(5000,1000,2000,256000)
 Employee j(10000);
+--------------------------------------------
+
+Create a class named BankAccount to manage bank accounts.
+
+🔸 Data Members (Private):
+string accountHolderName
+
+long accountNumber
+
+string accountType ("Savings" or "Current")
+
+double balance
+
+🔸 Member Functions:
+Default Constructor – sets default values like "Unknown", 0, "Savings", and 0.0.
+
+Parameterized Constructor – to initialize all data members.
+
+void deposit(double amount) – adds amount to balance.
+
+void withdraw(double amount) – subtracts amount from balance if sufficient funds exist, else show "Insufficient Balance".
+
+void displayAccountDetails() – displays all account details.
+
+double getBalance() – returns the current balance.
+
+🔹 Requirements:
+Create at least two BankAccount objects using both constructors.
+
+Demonstrate deposit and withdraw operations.
+
+Ensure data encapsulation by using private variables and accessing them via member functions only.
+
