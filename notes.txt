@@ -174,3 +174,62 @@ Three Types of Ticket , Diamond - Rs.200 , Gold - Rs.150 , Silver -Rs.100
 One user can book max 7 Tickets.
 Total 60 tickets we have 20 Diamond , 20 Gold and 20 Silver.
 User can identified by mobile number. 
+----------------------------------------------------------------
+What is function overloading ?
+
+operator overloading 
+
+a+b : numeric 
+a -> string ? 
+a-> object 
+
+c = a+b; 
+emp1 = emp2 + emp3; 
+----------------------------------------------------------------
+
+
+Type conversion ---> 
+
+
+class Bank :
+    information 
+
+
+file -> objects 
+
+
+app run -> file read -> object restore 
+----------------------------------------------------------------------
+
+stock details:- 
+
+1. Add Stock  
+2. List stock
+
+
+--------------------------------------------------------------------------------
+ 
+error -> 
+        1) compiletime 
+        2) runtime 
+
+
+ compile time -> syntax error ->
+                    ; 
+                    varaible use 
+
+program run -> 
+        crash 
+        error 
+        runtime error ->    divide by zero       
+            exception 
+handle ? 
+
+
+try -> error 
+catch -> handle
+
+
+throw 
+
+--------------------------------------------------------------------------------
